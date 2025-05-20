@@ -1,0 +1,47 @@
+.container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  margin-right: 4%;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3vw;
+  margin-top: 50px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+
+button {
+  background: linear-gradient(90deg, #C961DE, #2954A3);
+  border: none;
+  padding: 12px 24px;
+  transition: 0.3s ease;
+  border-radius: 25px;
+  width: 200px;
+  margin-left: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  button {
+    width: 150px;
+    padding: 10px 20px;
+  }
+  p{
+    font-size: 12px;
+  }
+}

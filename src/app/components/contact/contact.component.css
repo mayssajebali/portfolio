@@ -1,0 +1,38 @@
+.contact-icons{
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-icons a {
+  color: white;
+  transition: color 0.3s;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+.contact-icons a:hover {
+  color: #0077b5; /* bleu LinkedIn */
+}
+
+.contact-icons a:nth-child(3):hover {
+  color: #000; /* noir GitHub */
+}
+
+.contact-icons a:nth-child(1):hover {
+  color: #d44638; /* rouge mail */
+}
+h3::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: white;
+    margin: 10px auto 20px;
+}
+p{
+    margin-top: 100px;
+    font-size: 20px;
+}

@@ -1,0 +1,21 @@
+.container{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.project-container{
+    width: 70%;
+    margin: 0 auto;
+}
+img{
+    margin-left: 2%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+p{
+    text-align: justify;
+}
+video{
+    margin-top: 5%;
+}

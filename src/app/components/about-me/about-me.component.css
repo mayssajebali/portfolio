@@ -1,0 +1,118 @@
+.about_me_container {
+    border-radius: 30px;
+    width: 70%;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    position: relative; /* nécessaire pour que l'image flottante se base sur ce bloc */
+  }
+  
+  @media (max-width: 768px) {
+    .about_me_container{
+        width: 100%;
+    }
+  }
+.row{
+    margin-top: 100px;
+}
+ .vertical-line {
+    width: 3px;
+    height: 100%;
+    background-color: #ccc;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  span{
+    font-style: italic;
+    font-size: 14px;
+  }
+  ul{
+    list-style-type: none;
+  }
+  ul,li{
+    font-size: 14px;
+    text-align: left;
+    text-decoration: none;
+  }
+.skills-container {
+    padding: 30px 20px;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0;
+}
+
+.skills-container h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+h3::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: white;
+    margin: 10px auto 20px;
+}
+
+.skills-container h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 15px 0;
+    color: white;
+}
+
+.skills-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-container li {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.skills-container li:hover {
+    color: grey;
+    transition: color 0.3s;
+}
+  
+  .slide {
+    flex: 0 0 100%;
+    display: none;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .slide.active {
+    display: flex;
+  }
+  
+  .nav-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    color: #ccc;
+  }
+  #img3{
+    position: absolute;
+    margin-top: -150px;
+  }
+  .skill-section h5:hover{
+    color: rgb(222, 149, 240);
+  }
+
+  

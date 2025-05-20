@@ -1,0 +1,17 @@
+.container{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.project-container{
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 2%;
+}
+p{
+    text-align: justify;
+}
+video{
+    margin-top: 5%;
+}
